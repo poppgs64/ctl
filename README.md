@@ -2,6 +2,19 @@
 Linux BASH command line util for displaying info about/managing processes
 ctl can be used to show information about running processes such as the pid, number of open files, memory usage, etc.
 
+# Usage
+```
+$ ./ctl
+usage: ctl <operation> <application> <options>
+where <operation> can be:
+    start          Start (run) the application
+    stop           Stop the application
+    restart        restart the application.
+    kill           Terminate the application ungracefully
+    show           Display status of operation
+    status         Same as show
+    help           Display this help
+```
 # Examples
 Here is an example showing VSCode running on my workstation
 
